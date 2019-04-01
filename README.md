@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Hearthstone Deck Builder
+
+Allows users to build a deck from the game Hearthstone. JSON data provided courtesy of https://hearthstonejson.com/.
+App also features built in data visualiztion and search using Chart.js and Fuse.js.
+
+Check it out live at:
+https://sbadon122.github.io/React-Hearthstone-Deck-Builder/
+
+
+##Screenshots
+![Alt text](screenshots/screen-1?raw=true "Choose Hero")
+![Alt text](screenshots/screen-w2?raw=true "Card Selection")
+![Alt text](screenshots/screen-3?raw=true "Card Preview")
+![Alt text](screenshots/screen-4?raw=true "Deck Cost Bar Graph")
+![Alt text](screenshots/screen-5?raw=true "Card Search")
 
 ## Available Scripts
 
