@@ -8,11 +8,11 @@ https://sbadon122.github.io/React-Hearthstone-Deck-Builder/
 
 
 ##Screenshots
-![Alt text](screenshots/screen-1?raw=true "Choose Hero")
-![Alt text](screenshots/screen-w2?raw=true "Card Selection")
-![Alt text](screenshots/screen-3?raw=true "Card Preview")
-![Alt text](screenshots/screen-4?raw=true "Deck Cost Bar Graph")
-![Alt text](screenshots/screen-5?raw=true "Card Search")
+![Alt text](screenshots/screen-1.png?raw=true "Choose Hero")
+![Alt text](screenshots/screen-2.png?raw=true "Card Selection")
+![Alt text](screenshots/screen-3.png?raw=true "Card Preview")
+![Alt text](screenshots/screen-4.png?raw=true "Deck Cost Bar Graph")
+![Alt text](screenshots/screen-5.png?raw=true "Card Search")
 
 ## Available Scripts
 
