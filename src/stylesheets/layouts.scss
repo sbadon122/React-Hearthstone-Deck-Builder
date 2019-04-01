@@ -1,0 +1,126 @@
+$enable-shadows: true;
+
+@import url(https://fonts.googleapis.com/css?family=Fondamento);
+
+
+
+.nopadding {
+	padding: 0;
+}
+
+
+
+.black-font {
+	p {
+		color: black;
+	}
+}
+
+.tile-column{
+	padding-left: 0;
+	padding-right: 0;
+	right: 0.5em;
+}
+
+.tile {
+	padding-top: 3px
+}
+
+.crystal {
+	display: inline-block;
+	
+	h3 {
+    font-weight: 800;
+    position: absolute;
+		top: 50%;
+		left: 50%;  
+	  transform: translate(-50%, -55%);
+		text-shadow:
+				-1px -1px 0 #4c494a,
+				1px -1px 0 #4c494a,
+				-1px 1px 0 #4c494a,
+				1px 1px 0 #4c494a;
+	}
+}
+
+.crystal-container {
+	transform: translate(-10%, 15%);
+}
+
+.tile-container {
+	
+	margin-top: 5px;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+
+.card-number {
+	transform: translate(-10%, 25%);
+}
+
+.tile-container {
+		background-image: url('../assets/wood.jpg');
+	      background-size: cover;
+}
+
+.hero-img--circle-border {
+		width: 50px;
+	   height: 73px;
+     position: relative;
+     overflow: hidden;
+		 border: 10px solid transparent;
+		 -webkit-border-image: url('../assets/wood.jpg') 30 round; /* Safari 3.1-5 */
+		   -o-border-image: url('../assets/wood.jpg') 30 round; /* Opera 11-12.1 */
+		   border-image: url('../assets/wood.jpg') 30 round;
+		 transform: translate(10%, 20%);
+		 img {
+			 display: inline;
+			 margin: -15px 0px 0px -22px;
+			 height: 190%;
+			 width: auto;  
+		 }
+}
+
+.card {
+	background: 'none';
+	border: 'none';
+	&.card--disabled {
+		img {
+			opacity: 0.5;
+		}
+	}
+}
+
+
+
+.tile-button {
+	border: none;
+	background: transparent;
+	position: relative;
+	
+	&:hover + .tile-preview-image{
+			display: block;
+	}
+}
+
+.cards-container--preview {
+	.preview-background{
+		position:fixed;
+		background: black;
+		opacity: 0.5;
+		height: 100vh;
+		width: 100vw;
+		top: 0;
+		left: 0;
+		z-index: 99;
+	}
+}
+.deck-container {
+	z-index: 999;
+}
+
+.tile-preview-image {
+	display:none;
+	position: absolute;
+	transform: translate(-97.5%, -45%);
+}
