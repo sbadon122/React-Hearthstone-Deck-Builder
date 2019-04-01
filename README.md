@@ -9,10 +9,15 @@ https://sbadon122.github.io/React-Hearthstone-Deck-Builder/
 
 ## Screenshots
 ![Alt text](screenshots/screen-1.png "Choose Hero")
+Choosing a hero
 ![Alt text](screenshots/screen-2.png "Card Selection")
+Card browser and card selection
 ![Alt text](screenshots/screen-3.png "Card Preview")
+Card preview on mouse over card tile
 ![Alt text](screenshots/screen-4.png "Deck Cost Bar Graph")
+Bar chart visualizing deck mana cost using Chart.js
 ![Alt text](screenshots/screen-5.png "Card Search")
+Built in search bar using Fuse.js
 
 ## Available Scripts
 
